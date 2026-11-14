@@ -1,4 +1,46 @@
-# 🚀 NoveltyAI
+<!-- portfolio:start -->
+<div align="center">
+
+<img src="docs/images/banner.svg" alt="NoveltyAI Research Assistant" width="100%" />
+
+# NoveltyAI Research Assistant
+
+**Recursive loop that refines research ideas until they are novel**
+
+![LLM Apps](https://img.shields.io/badge/LLM%20Apps-2025-6366f1?style=flat-square) [![Portfolio](https://img.shields.io/badge/Portfolio-ashween.space-0ea5e9?style=flat-square)](https://ashween.space/projects/novelty-ai)
+
+</div>
+
+## About
+
+Scans live literature, flags overlaps with existing work, and iteratively rewrites a proposal until it finds a unique research angle. Powered by a local Large Language Model (Llama 3.1).
+
+Developed NoveltyAI, a Streamlit-based recursive research assistant that helps researchers turn initial concepts into publication-ready proposals through an automated, iterative loop.
+
+Integrated local Large Language Models (LLMs) through Ollama, using Llama 3.1 to evaluate research novelty, detect conflicts with existing literature, and refine proposals until a unique research angle emerges.
+
+Implemented an automated literature-scanning pipeline with the DuckDuckGo Search API that runs targeted academic queries, giving the model real-time context to check the originality of typed ideas or uploaded PDF concept papers.
+
+| | |
+|---|---|
+| **Project** | NoveltyAI: Recursive Research Assistant via LLM |
+| **Project type** | Local LLM Application |
+
+## Demo
+
+<p align="center"><a href="https://www.youtube.com/watch?v=u8psxDch-IY"><img src="https://img.youtube.com/vi/u8psxDch-IY/hqdefault.jpg" alt="NoveltyAI demo" width="70%" /></a><br/><sub>▶ NoveltyAI demo (YouTube)</sub></p>
+
+## Tech stack
+
+`Python` · `Streamlit` · `Ollama` · `Llama 3.1` · `DuckDuckGo Search API`
+
+> Full write-up on the portfolio: **[ashween.space/projects/novelty-ai](https://ashween.space/projects/novelty-ai)**
+
+<!-- portfolio:end -->
+
+---
+
+## Overview
 
 NoveltyAI is a **Streamlit-based recursive research assistant** designed
 to help researchers transform initial concepts into publication-ready
@@ -12,8 +54,6 @@ The system operates in an iterative research loop where it:
 -   Detects conflicts with existing research\
 -   Automatically refines the proposal\
 -   Repeats until a unique angle is identified or loop limit is reached
-
-------------------------------------------------------------------------
 
 ## 📌 Features
 
